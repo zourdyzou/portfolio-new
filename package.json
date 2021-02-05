@@ -7,6 +7,8 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
@@ -36,5 +38,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zourdycodes/portfolio-new.git"
+  },
+  "keywords": [
+    "Website",
+    "Development"
+  ],
+  "author": "Mohammed Zourdy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zourdycodes/portfolio-new/issues"
+  },
+  "homepage": "https://github.com/zourdycodes/portfolio-new#readme"
 }
