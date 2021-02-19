@@ -2,6 +2,7 @@ import pyramid from "./images/projects/amazon-clones.png";
 import nota from "./images/projects/calculator-project.png";
 import portfolio from "./images/projects/portfolio.png";
 import flixer from "./images/projects/netflix.png";
+import covidtracker from "./images/projects/covidtracker.png";
 
 export const projectData = [
   {
@@ -37,6 +38,16 @@ export const projectData = [
     date_created: "January 2021",
     link: "https://clone-74fb5.web.app/",
     github: "https://github.com/zourdycodes/amazon-clone",
+  },
+  {
+    title: "CORONA VIRUS TRACKER",
+    description: `This project was built for making a contribution to the world, to inform people around the world about coronavirus disease. as a Web Developer, I had a responsibility to make some contribution to the conditions of the world nowadays, also this Web Application is to exercise my Data Visualization Skills with ChartJS. I hope I could do better.`,
+    technologies:
+      "ReactJS, React-router, AxiosJS, ChartJS, LeafletMap.js , JavaScript, HTML, CSS, GitHub, Firebase",
+    image: covidtracker,
+    date_created: "September 2020",
+    link: "https://coronavirus-zourdy.web.app/",
+    github: "https://github.com/zourdycodes/covid-tracker",
   },
   {
     title: "Neurmophism Calculator",
