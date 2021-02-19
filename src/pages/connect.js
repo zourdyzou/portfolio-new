@@ -30,7 +30,7 @@ export default class Connect extends Component {
 
                 <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
                     <h1 className="textpink textspaced">LinkedIn</h1>
-                    <a href="https://www.linkedin.com/in/muhammadzourdy/" target="_blank" rel="noreferrer" className="socialicon-large">
+                    <a href="https://www.linkedin.com/in/muhammad-zourdy-2008981b2/" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-linkedin-square"></span>
                     </a>
                     <hr className="navbreak" />

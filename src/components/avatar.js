@@ -14,7 +14,8 @@ export default class Avatar extends Component {
                     <a href="https://github.com/zourdycodes" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-github"></span></a>
                     <a href="mailto:zhafarmuhammad12@gmail.com" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-mail_outline"></span></a>
                     <a href="https://www.twitter.com/zourdythedev/" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-twitter"></span></a>
-                    <a href="https://www.instagram.com/zourdythedev/" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-instagram"></span></a>
+                    <a href="https://www.linkedin.com/in/muhammad-zourdy-2008981b2/" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-linkedin"></span></a>
+                    {/* <a href="https://www.instagram.com/zourdythedev/" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-instagram"></span></a> */}
                 </div>
             </div>
         )
