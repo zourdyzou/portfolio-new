@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from './components/header';
-import Navigation from './components/navigation';
-import About from './pages/about';
-import Start from './pages/start';
-import Projects from './pages/projects';
-import Connect from './pages/connect';
-import Player from './pages/player';
-import Bonus from './pages/bonus';
+import React, { Component } from "react";
+import "./App.css";
+import Header from "./components/header";
+import Navigation from "./components/navigation";
+import About from "./pages/about";
+import Start from "./pages/start";
+import Projects from "./pages/projects";
+import Connect from "./pages/connect";
+import Player from "./pages/player";
+import Bonus from "./pages/bonus";
+import TagManager from "react-gtm-module";
+
+TagManager.initialize({ gtmId: "GTM-T4VJMCP" });
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'START',
+      page: "START",
       playing: false,
-    }
+    };
 
     this.changePage = this.changePage.bind(this);
     this.start = this.start.bind(this);
@@ -27,31 +30,36 @@ class App extends Component {
   }
 
   start() {
-    this.setState({ page: 'PLAYER' });
+    this.setState({ page: "PLAYER" });
   }
 
   togglePlaying() {
     const toggle = !this.state.playing;
-    this.setState({ playing: toggle })
+    this.setState({ playing: toggle });
   }
-
 
   showPage() {
     switch (this.state.page) {
-      case 'PLAYER':
-        return <Player onClick={this.changePage} />
-      case 'MENU':
-        return <Navigation onClick={this.changePage} />
-      case 'ABOUT':
-        return <About />
-      case 'PROJECTS':
-        return <Projects />
-      case 'CONNECT':
-        return <Connect />
-      case 'BONUS':
-        return <Bonus onClick={this.changePage} playing={this.state.playing} togglePlaying={this.togglePlaying} />
+      case "PLAYER":
+        return <Player onClick={this.changePage} />;
+      case "MENU":
+        return <Navigation onClick={this.changePage} />;
+      case "ABOUT":
+        return <About />;
+      case "PROJECTS":
+        return <Projects />;
+      case "CONNECT":
+        return <Connect />;
+      case "BONUS":
+        return (
+          <Bonus
+            onClick={this.changePage}
+            playing={this.state.playing}
+            togglePlaying={this.togglePlaying}
+          />
+        );
       default:
-        return <Start onClick={this.start} />
+        return <Start onClick={this.start} />;
     }
   }
 
@@ -59,16 +67,16 @@ class App extends Component {
     return (
       <div className="App">
         <div className="col-12 pl-0 pr-0">
-          {this.state.page === 'START' || this.state.page === 'PLAYER' || this.state.page === 'BONUS'
-            ? null 
-            : <Header page={this.state.page} onClick={this.changePage} />}
+          {this.state.page === "START" ||
+          this.state.page === "PLAYER" ||
+          this.state.page === "BONUS" ? null : (
+            <Header page={this.state.page} onClick={this.changePage} />
+          )}
         </div>
-  
-        <div className="col-12 pt-3">
-          {this.showPage()}
-        </div>
+
+        <div className="col-12 pt-3">{this.showPage()}</div>
       </div>
-    )
+    );
   }
 }
 

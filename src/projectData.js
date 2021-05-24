@@ -1,16 +1,18 @@
-import pyramid from "./images/projects/amazon-clones.png";
+// import pyramid from "./images/projects/amazon-clones.png";
 import nota from "./images/projects/calculator-project.png";
 import portfolio from "./images/projects/portfolio.png";
 import flixer from "./images/projects/netflix.png";
 import covidtracker from "./images/projects/covidtracker.png";
+import amazon from "./images/projects/amazon.png";
 
 export const projectData = [
   {
     title: "Netflix Clone",
-    description: `Flixer is a clone of Netflix's front-end web interface. This app was created using React 
+    description: `It is a clone of Netflix's front-end web interface. This app was created using React 
     functional components, axios for async/await requests, and deployed on Google Firebase. It features 
     movie data pulls from The Movie Database (TMDB) for current trends and movie posters. The trailer feature will be updated soon.`,
-    technologies: "React, Axios, JavaScript, HTML, CSS, GitHub, Firebase, Firebase Authentication, Stripe Payments",
+    technologies:
+      "React, Axios, JavaScript, HTML, CSS, GitHub, Firebase, Firebase Authentication, Stripe Payments",
     image: flixer,
     date_created: "November 2020",
     link: "https://netflix-clone-c1f35.web.app/",
@@ -21,7 +23,8 @@ export const projectData = [
     description: `This portfolio was created using React. The inspiration for the theme 
         was based on Tim Baker Portfolio. The site is mobile and desktop responsive, with 
         additional functionality that people can change with their own personal infos. `,
-    technologies: "React, JavaScript, HTML, CSS, GitHub, Netlify, AOS.js, Flexwider.js",
+    technologies:
+      "React, JavaScript, HTML, CSS, GitHub, Netlify, AOS.js, Flexwider.js",
     image: portfolio,
     date_created: "October 2020",
     link: "https://zourdy.netlify.app",
@@ -29,15 +32,13 @@ export const projectData = [
   },
   {
     title: "Amazon Clone",
-    description: `Amazon was designed and built for an educational purposes as well as my Hobby actually.
-    this is my way to learn more deeply about certain of programming language and also to rewind my knowledge about programming including
-    front-end and back-end process`,
+    description: `Amazon was designed and built for an educational purposes as well as to deep dive my front-end development skillset.this is my way to rewind my knowledge about programming, this project is very big and scalable with solid architecture`,
     technologies:
-      "React, Redux, Styled-components, JavaScript, HTML, CSS, GitHub, Netlify, Firebase, Cloud Firestore, Firebase Authentication, Cart Functionality",
-    image: pyramid,
+      "Next JS, Node JS, React, Redux, JavaScript, Tailwind CSS, GitHub, Vercel, Firebase, Cloud Firestore, Next Auth, Cart Functionality and Stripe Payments",
+    image: amazon,
     date_created: "January 2021",
-    link: "https://clone-74fb5.web.app/",
-    github: "https://github.com/zourdycodes/amazon-clone",
+    link: "https://amazon-frontend-tawny.vercel.app/",
+    github: "https://github.com/zourdycodes/amazon-frontend",
   },
   {
     title: "CORONA VIRUS TRACKER",
@@ -50,11 +51,10 @@ export const projectData = [
     github: "https://github.com/zourdycodes/covid-tracker",
   },
   {
-    title: "Neurmophism Calculator",
+    title: "Glasmorphism Calculator",
     description: `This calculator was built for rewind my knowledge about Mathematics and Logical Thinking
     I have a plan to update this calculator to become scientific calculator with a few additional features such as sin0 cos0, etc.`,
-    technologies:
-      "Animate.css, JavaScript, HTML, CSS, GitHub, Netlify",
+    technologies: "Animate.css, JavaScript, HTML, CSS, GitHub, Netlify",
     image: nota,
     date_created: "August 2020",
     link: "https://calculator-neurmophism-zourdythedev.netlify.app/",
