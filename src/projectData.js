@@ -5,6 +5,7 @@ import flixer from "./images/projects/netflix.png";
 import covidtracker from "./images/projects/covidtracker.png";
 import amazon from "./images/projects/amazon.png";
 import whatsapp from "./images/whatsapp.png";
+import fitmap from "./images/fitmap.png";
 
 export const projectData = [
   {
@@ -60,6 +61,15 @@ export const projectData = [
     date_created: "February 2021",
     link: "https://whatsapp-cloneey.vercel.app/",
     github: "https://github.com/zourdycodes/whatsapp-clone",
+  },
+  {
+    title: "Fitmap Runner",
+    description: `Fitmap is a new way for you to scheduling your fitness and daily sports more efficient with a runtime Map and the fun part is, this is an absolutely free and open-source application more or less this project might be helpful for the new comers of developers who get into JavaScript.`,
+    technologies: "HTML, CSS, JavaScript, Hammer.js, Leaflet.js",
+    image: fitmap,
+    date_created: "December 2020",
+    link: "https://fitmap.vercel.app/",
+    github: "https://github.com/zourdycodes/RunnerMap",
   },
   {
     title: "Glasmorphism Calculator",
