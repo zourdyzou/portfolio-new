@@ -4,6 +4,7 @@ import portfolio from "./images/projects/portfolio.png";
 import flixer from "./images/projects/netflix.png";
 import covidtracker from "./images/projects/covidtracker.png";
 import amazon from "./images/projects/amazon.png";
+import whatsapp from "./images/whatsapp.png";
 
 export const projectData = [
   {
@@ -49,6 +50,16 @@ export const projectData = [
     date_created: "September 2020",
     link: "https://coronavirus-zourdy.web.app/",
     github: "https://github.com/zourdycodes/covid-tracker",
+  },
+  {
+    title: "Whatsapp Clone",
+    description: `Real-Time chat messaging with timestamp and Last Seen functionality, I created this project focusing on learning how messaging app works behind the scenes and at the moment I was thinking about whatsapp, this project also to boost my knowledge in Next and React JS and front-end development skills. feel free to check it out and tested it!`,
+    technologies:
+      "Next JS, React, Styled-Components, Cloud Firestore, Lodash, Node JS, Moment.js, Google Log-in",
+    image: whatsapp,
+    date_created: "February 2021",
+    link: "https://whatsapp-cloneey.vercel.app/",
+    github: "https://github.com/zourdycodes/whatsapp-clone",
   },
   {
     title: "Glasmorphism Calculator",
