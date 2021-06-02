@@ -6,6 +6,8 @@ import covidtracker from "./images/projects/covidtracker.png";
 import amazon from "./images/projects/amazon.png";
 import whatsapp from "./images/whatsapp.png";
 import fitmap from "./images/fitmap.png";
+import bankist from "./images/projects/bankist.png";
+import tours from "./images/projects/tours.png";
 
 export const projectData = [
   {
@@ -70,6 +72,25 @@ export const projectData = [
     date_created: "December 2020",
     link: "https://fitmap.vercel.app/",
     github: "https://github.com/zourdycodes/RunnerMap",
+  },
+  {
+    title: "Bankist Crypto",
+    description: `Greetings! Fellow Developer 💥, Bankist is a new modern era of draw some money with cryptocurrency ⚖. this project was inspired by one of the crypto bank landing page but I build it with a new concept and more slightly modern.`,
+    technologies:
+      "SASS, JavaScript, HTML, CSS, GitHub, Netlify, ScrollReveal, Hammer.js",
+    image: bankist,
+    date_created: "January 2021",
+    link: "https://bankist-crypto.netlify.app/",
+    github: "https://github.com/zourdycodes/bankist-frontend",
+  },
+  {
+    title: "Natours Travel",
+    description: `This project is to boost my design and trigger my creativity thinking in Animating the Website without any help of external libraries, built all the animations of the website from scratch!, feel free to checkout and test the website!`,
+    technologies: "SASS, JavaScript, HTML, CSS, GitHub, Netlify",
+    image: tours,
+    date_created: "February 2021",
+    link: "https://tours-frontend.vercel.app/",
+    github: "https://github.com/zourdycodes/tours-frontend",
   },
   {
     title: "Glasmorphism Calculator",
