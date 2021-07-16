@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import * as Sentry from "@sentry/react";
 import { Integrations } from "@sentry/tracing";
-import App from "./App";
+import App from "./app";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap";
 import "bootstrap/dist/js/bootstrap.js";
