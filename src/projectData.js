@@ -9,18 +9,24 @@ import fitmap from "./images/fitmap.png";
 import bankist from "./images/projects/bankist.png";
 import tours from "./images/projects/tours.png";
 
+// https://movhub.vercel.app/
+// https://starbucks-frontend.vercel.app/
+// https://watchlist-react-movies.vercel.app/
+// https://highmos-frontend.vercel.app/
+// https://whatsapp-cloneey.vercel.app/
+
+// Beautiful Responsive Ecommerce Website. It has a header and a home page showing an image and data of a product, it also has a features section, a women's sneakers section, a collection section, a offers section and a footer. It also has its own page to see all the products. Developed totally mobile-first and then desktop.
+
 export const projectData = [
   {
     title: "Netflix Clone",
-    description: `It is a clone of Netflix's front-end web interface. This app was created using React 
-    functional components, axios for async/await requests, and deployed on Google Firebase. It features 
-    movie data pulls from The Movie Database (TMDB) for current trends and movie posters. The trailer feature will be updated soon.`,
+    description: `💥 This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components 💃. the purpose behind this build is I want to exercise and practise scaling a huge application such as Netflix.`,
     technologies:
-      "React, Axios, JavaScript, HTML, CSS, GitHub, Firebase, Firebase Authentication, Stripe Payments",
+      "React, Axios, JavaScript, HTML, CSS, GitHub, Firebase, Firebase Authentication",
     image: flixer,
     date_created: "November 2020",
-    link: "https://netflix-clone-c1f35.web.app/",
-    github: "https://github.com/zourdycodes/netflix-clone",
+    link: "https://netflix-frontend-six.vercel.app/",
+    github: "https://github.com/zourdycodes/Netflix",
   },
   {
     title: "React-Portfolio",
