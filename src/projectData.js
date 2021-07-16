@@ -1,17 +1,19 @@
-// import pyramid from "./images/projects/amazon-clones.png";
+// @ts-nocheck
 import nota from "./images/projects/calculator-project.png";
 import portfolio from "./images/projects/portfolio.png";
-import flixer from "./images/projects/netflix.png";
+import flixer from "./images/assets/netflix-new.png";
 import covidtracker from "./images/projects/covidtracker.png";
 import amazon from "./images/projects/amazon.png";
 import whatsapp from "./images/whatsapp.png";
 import fitmap from "./images/fitmap.png";
 import bankist from "./images/projects/bankist.png";
 import tours from "./images/projects/tours.png";
+import starbucks from "./images/assets/starbucks.png";
+import movhub from "./images/assets/movhub.png";
+import webrtc from "./images/assets/webrtc.png";
+import watchlist from "./images/assets/wa.png";
+import blackHistory from "./images/assets/black.png";
 
-// https://movhub.vercel.app/
-// https://starbucks-frontend.vercel.app/
-// https://watchlist-react-movies.vercel.app/
 // https://highmos-frontend.vercel.app/
 // https://whatsapp-cloneey.vercel.app/
 
@@ -22,11 +24,61 @@ export const projectData = [
     title: "Netflix Clone",
     description: `💥 This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components 💃. the purpose behind this build is I want to exercise and practise scaling a huge application such as Netflix.`,
     technologies:
-      "React, Axios, JavaScript, HTML, CSS, GitHub, Firebase, Firebase Authentication",
+      "React, JavaScript, HTML, CSS, styled-components, Firebase, Firebase Authentication",
     image: flixer,
-    date_created: "November 2020",
+    date_created: "May 2021",
     link: "https://netflix-frontend-six.vercel.app/",
     github: "https://github.com/zourdycodes/Netflix",
+  },
+  {
+    title: "Starbucks Clone",
+    description: `This application (a Starbucks clone) was built using React (Custom Hooks, Context), Firebase & Styled Components 💃. the purpose behind this build is I want to exercise and practise scaling the design problem of the famous company website.`,
+    technologies:
+      "React, styled-components, framer-motion, JavaScript, HTML, CSS, GitHub, Firebase, Firebase Authentication",
+    image: starbucks,
+    date_created: "June 2021",
+    link: "https://starbucks-frontend.vercel.app/",
+    github: "https://github.com/zourdycodes/starbucks-frontend",
+  },
+  {
+    title: "MovHub",
+    description: `💥 This application was built using React (Custom Hooks, Context), Material-UI kit, Firebase & Styled Components 💃. this is a fun project and also i make it Progressive across any device`,
+    technologies:
+      "React, Axios, JavaScript, HTML, CSS, styled-components, Material-UI component kit, Firebase, Firebase Authentication, PWA",
+    image: movhub,
+    date_created: "June 2021",
+    link: "https://movhub.vercel.app/",
+    github: "https://github.com/zourdycodes/MovHub",
+  },
+  {
+    title: "Video Chat WebRTC",
+    description: `💥 This application was built using React (Custom Hooks, Context), WebRTC, Node JS, Express JS & Styled Components 💃. this is a fun full-stack project and I do it because i want to learn a new things, kinda a bit curious about WebRTC technology and sharping my front-end skillset and back-end skill as well`,
+    technologies:
+      "React, Node JS, Express Server, Heroku, JavaScript, HTML, CSS, styled-components, Material-UI component kit",
+    image: webrtc,
+    date_created: "April 2021",
+    link: "https://videochat-react-webrtc.vercel.app/",
+    github: "https://github.com/zourdycodes/videochat-react-webrtc",
+  },
+  {
+    title: "WatchList Movie App",
+    description: `This application was built using React (Custom Hooks, Context), TMDB API, Material UI kit & Styled Components 💃. this is a fun project because i do it on my personal needs its kinda hard to keep my movie list at the different platform so i built one to save my dat searching movies and luckily a lot of my friends uses it too!`,
+    technologies:
+      "React, JavaScript, HTML, CSS, styled-components, Material-UI component kit,  TMDB API, Axios",
+    image: watchlist,
+    date_created: "March 2021",
+
+    link: "https://watchlist-react-movies.vercel.app/",
+    github: "https://github.com/zourdycodes/watchlist-react-movies",
+  },
+  {
+    title: "Black History",
+    description: `to honour prominent black people, both alive and past, who was instrumental in the freedom we enjoy today. It also serves to honour all black people. As much as racism exists, we cannot exist without each other. 👩🏾🧕🧔👲`,
+    technologies: "React, JavaScript, HTML, CSS, styled-components, Howler JS",
+    image: blackHistory,
+    date_created: "January 2021",
+    link: "https://black-history.vercel.app/",
+    github: "https://github.com/zourdycodes/black-history",
   },
   {
     title: "React-Portfolio",
